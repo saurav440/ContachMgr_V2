@@ -1,0 +1,12 @@
+<ul class="navbar-nav mr-auto">
+  <li class="nav-item Active" routerLinkActive="active" [routerLinkActiveOptions] = "{exact:true}">
+    <a class="nav-link" routerLink="/">Concepts</a>
+  </li>
+  <li class="nav-item" routerLinkActive="active">
+    <a class="nav-link" routerLink="/contacts">Contacts</a>
+  </li>
+  <li class="nav-item" routerLinkActive="active">
+    <a class="nav-link" routerLink="/about">About</a>
+  </li>
+  <ng-content></ng-content>
+</ul>

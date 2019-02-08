@@ -1,0 +1,12 @@
+<h2>Property Binding</h2>
+
+<p></p>
+<!--string interpolation -->
+<input type="text" value=" {{firstName}}">
+
+Property Binding:
+<input type="text" [value]="firstName">
+
+<button [disabled]="isDisabled" class="btn btn-primary">Login</button>
+
+<div [ngClass]="{redText:!isLoggedIn(),greenText:isLoggedIn()}">Test a div with ngClass</div>

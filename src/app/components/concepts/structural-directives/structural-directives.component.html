@@ -1,0 +1,9 @@
+<div class="alert alert-danger" *ngIf="!isLoggedIn"> Hey ! not allow to login</div>
+
+<div class="alert alert-success" *ngIf="isLoggedIn">  allow to login</div>
+
+<ul>
+  <li *ngFor="let skill of skillSetList">
+    {{skill}}
+  </li>
+</ul>
